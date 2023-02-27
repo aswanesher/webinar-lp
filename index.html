@@ -8,6 +8,7 @@
 	  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
 	        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 	  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+	  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
 	  <link rel="stylesheet" href="assets/style.css">
     <title>Hello, world!</title>
   </head>
@@ -537,30 +538,119 @@
 			<h3 class="text-center fw-bolder mb-4">
 				Apa Kata <span class="text-purple">Mereka</span> yang pernah berpartisipasi?
 			</h3>
-			<div class="row row-cols-1 row-cols-md-3 row-cols-xs-1 g-4 mt-4 d-flex align-items-center">
-				<div class="col-7">
-					<div class="card rounded-4 p-3">
-						<div class="card-body">
-							<h2>
-								,,
-							</h2>
-							<p class="text-dark fw-bold">
-								Mengikuti kegiatan bootcamp di Giza Lab mantap banget, Kegiatannya sangat seru dan isi materinya daging wagyu semua.
-							</p>
-							<p class="text-start">
-								Rivaldi Pratama<br>
-								<span class="fw-bold">UI Design at Giza Lab</span>
-							</p>
-						</div>
+			<div class="main-carousel">
+				<div class="carousel-cell">
+					<div class="row row-cols-1 row-cols-md-3 row-cols-xs-1 g-4 mt-4 d-flex align-items-center ms-5">
+							<div class="col-7">
+								<div class="card rounded-4 p-3">
+									<div class="card-body">
+										<h2>
+											,,
+										</h2>
+										<p class="text-dark fw-bold">
+											Mengikuti kegiatan bootcamp di Giza Lab mantap banget, Kegiatannya sangat seru dan isi materinya daging wagyu semua.
+										</p>
+										<p class="text-start">
+											Rivaldi Pratama<br>
+											<span class="fw-bold">UI Design at Giza Lab</span>
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-5 img-testimonial-list">
+								<img src="assets/img/testimoni_img1.jpg" alt="">
+							</div>
 					</div>
 				</div>
-				<div class="col-5 img-testimonial-list">
-					<img src="assets/img/testimoni_img1.jpg" alt="">
+				<div class="carousel-cell">
+					<div class="row row-cols-1 row-cols-md-3 row-cols-xs-1 g-4 mt-4 d-flex align-items-center ms-5">
+						<div class="col-7">
+							<div class="card rounded-4 p-3">
+								<div class="card-body">
+									<h2>
+										,,
+									</h2>
+									<p class="text-dark fw-bold">
+										Mengikuti kegiatan bootcamp di Giza Lab mantap banget, Kegiatannya sangat seru dan isi materinya daging wagyu semua.
+									</p>
+									<p class="text-start">
+										Rivaldi Pratama<br>
+										<span class="fw-bold">UI Design at Giza Lab</span>
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-5 img-testimonial-list">
+							<img src="assets/img/testimoni_img1.jpg" alt="">
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
 	</section>
+	<section id="cta">
+		<div class="container col-xxl-12 px-4 py-5 d-flex justify-content-center align-items-center">
+			<img src="assets/img/banner-cta.png" class="img-fluid mt-4">
+		</div>
+	</section>
+	<section id="footer" class="p-5">
+		<div class="container mt-4 ps-5">
+			<div class="row">
+				<div class="col-lg-3">
+					<img src="assets/img/logo.png" class="img-fluid">
+					<p class="copywright-text mt-4">
+						Copyright © 2021 Mentify by Giza Lab
+					</p>
+				</div>
+				<div class="col-lg-3">
+					<h6>
+						Sitemap
+					</h6>
+					<ul class="nav flex-column">
+						<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Bootcamp</a></li>
+						<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Mentify Life</a></li>
+						<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Karya Alumni</a></li>
+						<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Kelas Saya</a></li>
+					</ul>
+				</div>
+				<div class="col-lg-3">
+					<h6>
+						About
+					</h6>
+					<ul class="nav flex-column">
+						<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About Us</a></li>
+						<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Our Team</a></li>
+						<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Contact Us</a></li>
+						<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQ</a></li>
+					</ul>
+				</div>
+				<div class="col-lg-3">
+					<h6>
+						Get in touch
+					</h6>
+					<ul class="nav flex-column">
+						<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About Us</a></li>
+						<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Our Team</a></li>
+						<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Contact Us</a></li>
+						<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQ</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<script src="https://code.jquery.com/jquery-3.6.3.slim.min.js" integrity="sha256-ZwqZIVdD3iXNyGHbSYdsmWP//UBokj2FHAxKuSBKDSo=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+	<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+	<script>
+		$('.main-carousel').flickity({
+			// options
+			cellAlign: 'left',
+			contain: true,
+			pageDots: false,
+			wrapAround: false
+		});
+	</script>
   </body>
 </html>
